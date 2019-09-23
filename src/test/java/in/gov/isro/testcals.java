@@ -19,4 +19,11 @@ public class testcals {
 		int result = calc.multiply(5, 5);
 		assertEquals(25, result);
 	}
+	
+	@Test
+	public void testSub(){
+		calculator calc = new calculator();
+		int result = calc.substract(10, 5);
+		assertEquals(5, result);
+	}
 }
