@@ -26,4 +26,10 @@ public class testcals {
 		int result = calc.substract(10, 5);
 		assertEquals(5, result);
 	}
+	@Test
+	public void testDiv(){
+		calculator calc = new calculator();
+		int result = calc.divide(10, 5);
+		assertEquals(2, result);
+	}
 }
