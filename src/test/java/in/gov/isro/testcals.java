@@ -32,4 +32,5 @@ public class Testcals {
 		int result = calc.divide(10, 5);
 		assertEquals(2, result);
 	}
+	
 }
